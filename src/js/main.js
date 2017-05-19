@@ -34,11 +34,13 @@ function initMap() {
 		directionsService.route({
 			origin: inputInicio.value,
 			destination: inputDestino.value,
-			travelMode: 'DRIVING'
+			travelMode: 'DRIVING',
+			unitSystem: google.maps.UnitSystem.METRIC
 		}, function(response, status) {
 			if (status === 'OK') {
 				$("#map").addClass("nuevo-height");
 				directionsDisplay.setDirections(response);
+				directionsDisplay.setPanel($("#hola"));
 				$("#primer-elemento").removeClass("hidden");
 				$("#segundo-elemento").removeClass("hidden");
 
