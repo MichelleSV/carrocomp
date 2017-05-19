@@ -10,7 +10,7 @@
 			<div class="container">
 				<div class="navbar-header">
 					<a class="navbar-brand" href="#">
-						Carrocomp!
+						<img src="../assets/Iconos/carrocomp!.png">
 					</a>
 				</div>
 			</div>
@@ -18,14 +18,64 @@
 		<div id="map"></div>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3">
-					<div class="direcciones">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+					<div class="direcciones montserrat">
 						<h4>ORIGEN</h4>
 						<input id="inicio"></input>
 						<h4>DESTINO</h4>
 						<input id="destino"></input>
 					</div>
-					<button id="buscarRuta" class="btn-largo">BUSCAR</button>
+					<button id="buscarRuta" class="btn-largo montserrat">BUSCAR</button>
+					<div class="precios">
+						<h4 class="montserrat">VEHICULO</h4>
+						<p class="open-sans">Selecciona una opción de viaje</p>
+						<ul class="source-sans">
+							<div class="row">
+								<li>
+									<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+										<input type="radio" name="carro">
+									</div>
+									<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img src="../assets/Iconos/moto_icon.png"></div>
+									<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">Motocicleta <br><span>Como máximo 2 personas</span></div>
+									<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">$345</div>
+								</li>
+							</div>
+							<div class="row">
+								<li>
+									<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+										<input type="radio" name="carro">
+									</div>
+									<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img src="../assets/Iconos/automovil.png"></div>
+									<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">Automovil<br><span>Como máximo 5 personas</span></div>
+									<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">$345</div>
+								</li>
+							</div>
+							<div class="row">
+								<li>
+									<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+										<input type="radio" name="carro">
+									</div>
+									<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img src="../assets/Iconos/minivan.png"></div>
+									<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">Minivan<br><span>Como máximo 10 personas</span></div>
+									<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">$345</div>
+								</li>
+							</div>
+							<div class="row">
+								<li>
+									<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+										<input type="radio" name="carro">
+									</div>
+									<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><img src="../assets/Iconos/bus.png"></div>
+									<div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">Bus<br><span>Como máximo 40 personas</span></div>
+									<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">$345</div>
+								</li>
+							</div>
+						</ul>
+						<div class="pasajeros">
+							<label>Cantidad de pasajeros</label><input type="" name="">
+						</div>
+					</div>
+					<button class="btn-largo montserrat">¡COMPARTIR CARRO!</button>
 				</div>
 			</div>
 		</div>

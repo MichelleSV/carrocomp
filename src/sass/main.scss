@@ -1,20 +1,44 @@
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "_variables";
+*{
+	outline: 0;
+	color: rgb(87,87,87);
+}
+.montserrat{
+	font-family: "Montserrat";
+	font-weight: 600;
+}
+.open-sans{
+	font-family: "Open Sans";
+}
+.source-sans{
+	font-family: "Source Sans Pro";
+}
 #map{
 	position: absolute;
 	top: 70px;
 	left: 0;
 	width: 100%;
-	height:500px;
+	height:787px;
 }
 .direcciones{
 	background-color: white;
 	color: black;
 	padding: 4rem;
+	input#inicio{
+		margin-bottom: 2rem;
+	}
+	h4{
+		margin-top: 0;
+		font-weight: 600;
+		color: rgb(87,87,87);
+	}
 	input{
 		padding: 0.8rem;
    		width: 100%;
 		border: 1px solid $color-lab;
+		color: rgb(87,87,87);
+		font-weight: normal;
 	}
 }
 .btn-largo{
@@ -30,7 +54,48 @@
 	background-color: white;
 	height: 70px;
 	a{
-		font-weight: 700;
-		font-size: 2em;
+		img{
+			width: 60%;
+		}
+	}
+}
+.precios{
+	background-color: white;
+	padding: 3rem 4rem;
+	h4{
+		font-weight: 600;
+	}
+	ul{
+		list-style: none;
+		padding: 0;
+		.row{
+			padding: 0.8rem 1rem;
+			li{
+				div{
+					padding: 0 5px;
+					font-weight: 600;
+				}
+				span{
+					font-size: 0.8em;
+					font-weight: normal;
+				}
+				img{
+					width: 100%;
+				}
+			}
+		}
+	}
+	.pasajeros{
+		margin: 
+		label{
+			font-size: 0.9em;
+			padding: 0.5rem 0;
+		}
+		input{
+			width: 45px;
+    		border: 1px solid $color-lab;
+    		height: 30px;
+    		float: right;
+		}
 	}
 }

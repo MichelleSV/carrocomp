@@ -19,8 +19,14 @@ function initMap() {
 
 	var buttonTrazar = document.getElementById("buscarRuta");
 
+
+
 	var directionsService = new google.maps.DirectionsService;
-	var directionsDisplay = new google.maps.DirectionsRenderer;
+	var directionsDisplay = new google.maps.DirectionsRenderer({
+    	polylineOptions: {
+      		strokeColor: "#F6A623"
+    	}
+  	});
 	
 	directionsDisplay.setMap(map);
 
