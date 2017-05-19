@@ -37,7 +37,11 @@ function initMap() {
 			travelMode: 'DRIVING'
 		}, function(response, status) {
 			if (status === 'OK') {
+				$("#map").addClass("nuevo-height");
 				directionsDisplay.setDirections(response);
+				$("#primer-elemento").removeClass("hidden");
+				$("#segundo-elemento").removeClass("hidden");
+
 			} else {
 				window.alert("No encontramos una ruta :(");
 			}
