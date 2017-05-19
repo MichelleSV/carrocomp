@@ -1,0 +1,40 @@
+{
+  "name": "carrocomp",
+  "version": "1.0.0",
+  "description": "Evaluacion GW",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichelleSV/carrocomp.git"
+  },
+  "keywords": [
+    "CSS",
+    "SASS",
+    "HTML",
+    "JQUERY",
+    "JS"
+  ],
+  "author": "Michelle Seguil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MichelleSV/carrocomp/issues"
+  },
+  "homepage": "https://github.com/MichelleSV/carrocomp#readme",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "express": "^4.15.3",
+    "graceful-fs": "^4.1.11",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.3.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2",
+    "minimatch": "^3.0.4"
+  }
+}

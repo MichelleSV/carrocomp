@@ -1,0 +1,36 @@
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "_variables";
+#map{
+	position: absolute;
+	top: 70px;
+	left: 0;
+	width: 100%;
+	height:500px;
+}
+.direcciones{
+	background-color: white;
+	color: black;
+	padding: 4rem;
+	input{
+		padding: 0.8rem;
+   		width: 100%;
+		border: 1px solid $color-lab;
+	}
+}
+.btn-largo{
+    background-color: $color-lab;
+    border: 0;
+    width: 100%;
+    padding: 1rem 0;
+    color: white;
+    margin: 2rem 0;
+}
+.navbar-default{
+	border: 0;
+	background-color: white;
+	height: 70px;
+	a{
+		font-weight: 700;
+		font-size: 2em;
+	}
+}
